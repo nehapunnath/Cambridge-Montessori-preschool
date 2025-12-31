@@ -107,16 +107,7 @@ const Academics = () => {
     }
   ];
 
-  // Daily Schedule
-  const dailySchedule = [
-    { time: "8:30 - 9:00 AM", activity: "Arrival & Free Play", description: "Children settle in with free choice activities" },
-    { time: "9:00 - 11:00 AM", activity: "Montessori Work Cycle", description: "Individual and small group lessons with Montessori materials" },
-    { time: "11:00 - 11:30 AM", activity: "Snack Time", description: "Healthy snacks in a social setting" },
-    { time: "11:30 AM - 12:00 PM", activity: "Outdoor Play", description: "Physical activities and nature exploration" },
-    { time: "12:00 - 1:00 PM", activity: "Lunch & Rest", description: "Nutritious lunch followed by quiet time" },
-    { time: "1:00 - 2:30 PM", activity: "Special Activities", description: "Art, Music, Storytelling, or Cultural Studies" },
-    { time: "2:30 - 3:00 PM", activity: "Group Time & Departure", description: "Closing circle and preparation for home" }
-  ];
+  
 
   // Learning Outcomes
   const learningOutcomes = [
@@ -199,11 +190,7 @@ const Academics = () => {
                 learning through specially designed materials.
               </p>
               
-              <div className="pt-6">
-                <button className="bg-amber-600 text-white px-8 py-3 rounded-full font-sans font-medium hover:bg-amber-700 transition-colors">
-                  Download Curriculum Guide
-                </button>
-              </div>
+              
             </div>
             
             <div className="relative">
@@ -370,7 +357,7 @@ const Academics = () => {
             <div className="w-24 h-1 bg-amber-500 mx-auto mt-6"></div>
           </div>
 
-          {/* <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-12">
             {ageGroups.map((program, index) => (
               <div key={index} className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-2xl p-8 shadow-xl border border-amber-100">
                 <div className="mb-8">
@@ -399,58 +386,17 @@ const Academics = () => {
                     </div>
                   </div>
                   
-                  <div className="pt-6 border-t border-amber-200">
-                    <div className="flex justify-between items-center">
-                      <span className="text-amber-600 font-sans font-medium">{program.ratio}</span>
-                      <button className="bg-amber-600 text-white px-6 py-2 rounded-full font-sans text-sm hover:bg-amber-700 transition-colors">
-                        Program Details
-                      </button>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             ))}
-          </div> */}
+          </div>
         </div>
       </section>
 
-      {/* Daily Schedule */}
-      {/* <section className="py-20 bg-gradient-to-b from-amber-900 to-amber-800">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-amber-50 font-serif mb-6">
-              A Day at Cambridge Montessori
-            </h2>
-            <p className="text-xl text-amber-200 font-sans max-w-3xl mx-auto">
-              A balanced routine that combines structured learning with free exploration
-            </p>
-            <div className="w-24 h-1 bg-amber-400 mx-auto mt-6"></div>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {dailySchedule.map((item, index) => (
-                <div key={index} className="bg-amber-800/30 rounded-xl p-6 border border-amber-700/50 hover:bg-amber-800/40 transition-colors duration-300">
-                  <div className="flex flex-col md:flex-row md:items-center gap-4">
-                    <div className="md:w-1/4">
-                      <div className="bg-amber-700/50 text-amber-100 font-bold py-2 px-4 rounded-full text-center">
-                        {item.time}
-                      </div>
-                    </div>
-                    <div className="md:w-3/4">
-                      <h3 className="text-xl font-bold text-amber-50 font-sans mb-2">{item.activity}</h3>
-                      <p className="text-amber-200 font-sans">{item.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section> */}
-
+      
       {/* Learning Outcomes */}
-      {/* <section className="py-20 bg-white">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-amber-900 font-serif mb-6">
@@ -483,10 +429,10 @@ const Academics = () => {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Assessment Approach */}
-      {/* <section className="py-20 bg-gradient-to-r from-amber-100 to-yellow-100">
+      <section className="py-20 bg-gradient-to-r from-amber-100 to-yellow-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-amber-900 font-serif mb-6">
@@ -517,12 +463,10 @@ const Academics = () => {
               We believe in assessing the whole child, not just academic skills. Our approach focuses 
               on observing growth in all areas - social, emotional, physical, and cognitive development.
             </p>
-            <button className="bg-amber-600 text-white px-10 py-3 rounded-full font-sans font-medium hover:bg-amber-700 transition-colors">
-              Request Sample Progress Report
-            </button>
+            
           </div>
         </div>
-      </section> */} 
+      </section> 
 
      
     </div>
